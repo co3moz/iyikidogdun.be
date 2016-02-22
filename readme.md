@@ -10,13 +10,13 @@ Kullanım
 Türkçe isimleri tespit edip çeviri yapar. Örneğin, `goksel` -> `Göksel` haline gelir.
 
 Örnekler:
-http://dogan.iyikidogdun.be
-http://goksel.iyikidogdun.be
-http://furkan.iyikidogdun.be
+* http://dogan.iyikidogdun.be
+* http://goksel.iyikidogdun.be
+* http://furkan.iyikidogdun.be
 
 Eğer soyadı da eklenecekse nokta konularak bu işlem yapılabilir, soyadların çevrilmesi mümkün olmadığı için türkçe karakterler yazılmayabilir.
 
-http://goksel.pirnal.iyikidogdun.be
+* http://goksel.pirnal.iyikidogdun.be
 
 ![](src/public/image/fullscreen.png)
 
