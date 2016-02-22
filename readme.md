@@ -29,6 +29,7 @@ Nasıl Ayağa Kalkıyor Bu Meret
 -------------------
 * node.js'in kurulu olduğundan emin ol
 * `package.json`un olduğu dizine gel
+* `npm start` yaz önce.
 * `node src/app.js` yaz yada `npm start`'de keyfine kalmış.
 
 Geliştirme
