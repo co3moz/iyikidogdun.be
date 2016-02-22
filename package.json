@@ -1,0 +1,19 @@
+{
+  "name": "iyikidogdunbe",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "author": "co3moz",
+  "license": "PERSONAL",
+  "private": true,
+  "scripts": {
+    "start": "node --optimize_for_size --max_old_space_size=920 --gc_interval=100 src/app.js",
+    "start_with_debug": "node --debug --optimize_for_size --max_old_space_size=920 --gc_interval=100 src/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "compression": "^1.6.1",
+    "config": "^1.17.1",
+    "express": "^4.13.3",
+    "ezlogger": "^1.5.2"
+  }
+}

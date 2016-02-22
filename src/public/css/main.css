@@ -1,0 +1,292 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300italic&subset=latin,latin-ext);
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.cake-screen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 3s;
+    transition: all 3s;
+}
+
+.chocolate-screen {
+    width: 100%;
+    height: 100%;
+    background: #38f;
+}
+
+/*Cake screen*/
+body {
+    background: #2C81C1;
+}
+
+#cake {
+    display: block;
+    position: relative;
+    margin: -10em auto 0 auto;
+}
+
+/* ============================================== Candle
+*/
+.velas {
+    background: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 228px;
+    left: 50%;
+    margin-left: -2.4px;
+    margin-top: -8.33333333px;
+    width: 5px;
+    height: 35px;
+    -webkit-transform: translateY(-300px);
+    transform: translateY(-300px);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-animation: in 500ms 6s ease-out forwards;
+    animation: in 500ms 6s ease-out forwards;
+}
+
+.velas:after,
+.velas:before {
+    background: rgba(255, 0, 0, 0.4);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.22222222px;
+}
+
+.velas:after {
+    top: 25%;
+    left: 0;
+}
+
+.velas:before {
+    top: 45%;
+    left: 0;
+}
+
+/* ============================================== Fire
+*/
+.fuego {
+    border-radius: 100%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -2.6px;
+    width: 6.66666667px;
+    height: 18px;
+}
+
+.fuego:nth-child(1) {
+    -webkit-animation: fuego 2s 6.5s infinite;
+    animation: fuego 2s 6.5s infinite;
+}
+
+.fuego:nth-child(2) {
+    -webkit-animation: fuego 1.5s 6.5s infinite;
+    animation: fuego 1.5s 6.5s infinite;
+}
+
+.fuego:nth-child(3) {
+    -webkit-animation: fuego 1s 6.5s infinite;
+    animation: fuego 1s 6.5s infinite;
+}
+
+.fuego:nth-child(4) {
+    -webkit-animation: fuego 0.5s 6.5s infinite;
+    animation: fuego 0.5s 6.5s infinite;
+}
+
+.fuego:nth-child(5) {
+    -webkit-animation: fuego 0.2s 6.5s infinite;
+    animation: fuego 0.2s 6.5s infinite;
+}
+
+/* ============================================== Animation Fire
+*/
+@-webkit-keyframes fuego {
+    0%, 100% {
+        background: rgba(254, 248, 97, 0.5);
+        box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1);
+    }
+    50% {
+        background: rgba(255, 50, 0, 0.1);
+        box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
+        -webkit-transform: translateY(-20px) scale(0);
+        transform: translateY(-20px) scale(0);
+    }
+}
+
+@keyframes fuego {
+    0%, 100% {
+        background: rgba(254, 248, 97, 0.5);
+        box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1);
+    }
+    50% {
+        background: rgba(255, 50, 0, 0.1);
+        box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
+        -webkit-transform: translateY(-20px) scale(0);
+        transform: translateY(-20px) scale(0);
+    }
+}
+
+@-webkit-keyframes in {
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes in {
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+.text {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 1.4em;
+}
+
+.text p {
+    font-size: 1.4em;
+    margin: -10px;
+}
+
+/*chocolate screen*/
+.chocolate-screen {
+    position: absolute;
+    top: 550px;
+    -webkit-transition: all 3s;
+    transition: all 3s;
+}
+
+/*assets*/
+.chocolate-screen {
+    background: #38f;
+    overflow: hidden;
+}
+
+.chocolate-bar {
+    width: 485px;
+    height: 215px;
+    background: #391600;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    border: 10px solid #1C0900;
+    text-align: center;
+    /*simple fix for error caused by floating*/
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.chocolate-squares {
+    width: 100px;
+    height: 50px;
+    background: #301000;
+    border: 7px solid #1C0900;
+    display: inline-block;
+    float: left;
+    margin: 3px;
+}
+
+.bar-wrapper {
+    width: 305px;
+    height: 245px;
+    background: #aaa;
+    position: absolute;
+    right: -20px;
+    top: -18px;
+    border: 6px solid #666;
+    border-left: none;
+    z-index: 2;
+}
+
+.wrapper-fold {
+    width: 30%;
+    height: 100%;
+    background: #ccc;
+    border-right: 6px solid #666;
+    position: relaive;
+    z-index: 3;
+}
+
+.wrapper-logo {
+    display: inline-block;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    margin: 0 auto;
+    bottom: 190px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 120px;
+    color: #f33;
+    text-transform: uppercase;
+    z-index: -1;
+}
+
+.wrapper-logo:after {
+    content: " ";
+    width: 80%;
+    height: 110%;
+    border: 10px solid #f33;
+    display: inline-block;
+    position: relative;
+    bottom: 130px;
+}
+
+/*viewing controls*/
+input {
+    display: none;
+}
+
+label[for="make-a-wish"] {
+    display: block;
+    margin: 60px auto;
+    text-align: center;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 2em;
+    position: relative;
+    z-index: 5;
+}
+
+label[for="make-a-wish"]:hover {
+    color: #fff;
+}
+
+#randomSection {
+    width: 50%;
+    text-align: center;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+.text > a:active, .text > a:link, .text > a:visited {
+    color: white;
+    text-decoration: none;
+}

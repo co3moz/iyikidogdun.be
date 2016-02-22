@@ -1,0 +1,5 @@
+{
+    "repository": "co3moz/iyikidogdun.be",
+    "accessToken": "",
+    "afterPull": "npm install"
+}

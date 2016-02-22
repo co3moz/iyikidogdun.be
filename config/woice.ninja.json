@@ -1,0 +1,7 @@
+{
+  "project": "iyikidogdun.be",
+  "port": "3038",
+  "logger": {
+    "requestLogger": "true"
+  }
+}
