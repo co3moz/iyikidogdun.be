@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/app.js",
   "author": "co3moz",
-  "license": "PERSONAL",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "start": "node --optimize_for_size --max_old_space_size=920 --gc_interval=100 src/app.js",

@@ -24,16 +24,23 @@ Eğer isim sorunu çözülemiyorsa aşağıdaki gibi url girebilirsiniz. Bu saye
 
 ![](src/public/image/fullscreen.png)
 
+Benim adımı çevirmiyor
+-----------------------
+Adınızı ister pullrequest'le yada issue açarak bildirebilirsiniz. Bu sayede gerekli eksikliği tamamlamış oluruz
 
-Nasıl Ayağa Kalkıyor Bu Meret
+Nasıl ayağa kalkıyor bu meret
 -------------------
 * node.js'in kurulu olduğundan emin ol
 * `package.json`un olduğu dizine gel
 * `npm install` yaz önce.
 * `node src/app.js` yaz yada `npm start`'de keyfine kalmış.
 
+Kaynak
+-----------
+[Pasta](http://codepen.io/fixcl/pen/bsIhn)
+
 Geliştirme
 ----------------
 
-* Lütfen geliştirmeye sizde katkı yapın.
+* Lütfen projeye sizde katkı yapın
 * Pull requestlerinizi bekliyorum :)
