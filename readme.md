@@ -1,7 +1,7 @@
 iyikidogdun.be
 ============
 
-İyiki doğdun be :)
+İyi ki doğdun be :)
 
 Kullanım
 ----------------
