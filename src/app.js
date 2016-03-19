@@ -30,7 +30,7 @@ project.express = express;
 project.util = require("./util/_init");
 
 app.get(/\/(.+)/, function (req, res) {
-  res.sendfile('index.html', {root: './src/public'});
+  res.sendFile('index.html', {root: './src/public'});
 });
 
 project.server = app.listen(config.get('port'));
