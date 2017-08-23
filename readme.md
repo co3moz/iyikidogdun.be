@@ -31,10 +31,11 @@ Adınızı ister pullrequest'le yada issue açarak bildirebilirsiniz. Bu sayede 
 
 Nasıl ayağa kalkıyor bu meret
 -------------------
-* node.js'in kurulu olduğundan emin ol
-* `package.json`un olduğu dizine gel
-* `npm install` yaz önce.
-* `node src/app.js` yaz yada `npm start`'de keyfine kalmış.
+Docker üzerinde nginx image kullanarak statik dosyaları serve ediyor. Docker üzerinde çalıştırmak için tek yapılması gereken
+
+```js
+docker run -d -p 80:80 co3moz/iyikidogdunbe
+```
 
 Kaynak
 -----------
