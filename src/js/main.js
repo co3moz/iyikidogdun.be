@@ -1,14 +1,14 @@
 var hostname = location.hostname.split(".");
 var last = hostname.pop();
-if(last == "be") {
+if (last == "be") {
   hostname.pop();
 }
 
 var person = hostname.join(".").trim();
-if(person == "") {
+if (person == "") {
   person = decodeURI(location.pathname.substring(1));
 } else {
-  person = person.split(".").map(function(e) {
+  person = person.split(".").map(function (e) {
     var nick = e.substring(0, 1).toUpperCase() + e.substring(1);
     return isimler[nick] ? isimler[nick] : nick;
   }).join(" ");
@@ -16,7 +16,7 @@ if(person == "") {
 
 var nameSection = document.getElementById("nameSection");
 
-if(person.trim() != "") {
+if (person.trim() != "") {
   nameSection.innerHTML = person;
 }
 

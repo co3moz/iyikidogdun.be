@@ -19,11 +19,7 @@ Eğer soyadı da eklenecekse nokta konularak bu işlem yapılabilir, soyadların
 
 * http://goksel.pirnal.iyikidogdun.be
 
-Eğer isim sorunu çözülemiyorsa aşağıdaki gibi url girebilirsiniz. Bu sayede aynı işlem gerçekleşmiş olacaktır.
-
-* http://iyikidogdun.be/%C3%9Cmit%20Derya
-
-![](src/public/image/fullscreen.png)
+![](src/image/fullscreen.png)
 
 Benim adımı çevirmiyor
 -----------------------
